@@ -1,9 +1,180 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Hello AI!</title>
-    </head>
-    <body>
-        <p>Example model.</p>
-    </body>
+<!DOCTYPE html><html>
+<head>
+    <title>Volker Fischer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        .portrait {
+            display: block;
+            margin: 0 auto;
+            width: 200px;
+            border-radius: 50%;
+        }
+        .description {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .publications {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sel_publication {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .sel_publication img {
+            width: 300px;
+            margin-right: 20px;
+        }
+        .publication {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<h1>Volker Fischer</h1>
+<img class="portrait" src="resources/portrait_640x360.png" alt="Portrait">
+<div class="description">
+    <p>
+        I am a senior expert at the Bosch Center for Artificial Intelligence
+        (<a href="https://www.bosch-ai.com/" target="_blank">
+             BCAI
+        </a>).
+        My main research interest are generalization and robustness properties of models for vision perception.
+    </p>
+</div>
+<h2>Selected publications</h2>
+<ul class="publications">
+    <li class="sel_publication">
+        <img src="resources/streaming_rollout.jpg" alt="streaming rollout">
+        <p>
+            <b>Volker Fischer</b>, Jan Koehler, Thomas Pfeil.
+            <b>The streaming rollout of deep networks - towards fully model-parallel execution.</b>
+            Advances in Neural Information Processing System (NeurIPS), 2018,
+            <a href="https://proceedings.neurips.cc/paper/2018/hash/08f90c1a417155361a5c4b8d297e0d78-Abstract.html">
+                link
+            </a>
+        </p>
+    </li>
+    <li class="sel_publication">
+        <img src="resources/diagvib-6.jpg" alt="diagvib-6">
+        <p>
+            Elias Eulig, Piyapat Saranrittichai, Chaithanya Kumar Mummadi, Kilian Rambach, William Beluch, Xiahan Shi, <b>Volker Fischer</b>.
+            <b>DiagViB-6: A Diagnostic Benchmark Suite for Vision Models in the Presence of Shortcut and Generalization Opportunities.</b>
+            International Conference on Computer Vision (ICCV), 2021,
+            <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Eulig_DiagViB-6_A_Diagnostic_Benchmark_Suite_for_Vision_Models_in_the_ICCV_2021_paper.pdf">
+                link
+            </a>
+        </p>
+    </li>
+</ul>
+<h2>Publications</h2>
+<ul>
+    <li class="publication">
+        Piyapat Saranrittichai, Chaithanya Kumar Mummadi, Claudia Blaiotta, Mauricio Munoz, <b>Volker Fischer</b>.<br>
+        <b>Overcoming Shortcut Learning in a Target Domain by Generalizing Basic Visual Factors from a Source Domain.</b><br>
+        European Conference on Computer Vision (ECCV), 2022,
+        <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136850290.pdf">
+            link
+        </a>
+    </li>
+    <li class="publication">
+        Artem Moskalev, Ivan Sosnovik, <b>Volker Fischer</b>, Arnold Smeulders.<br>
+        <b>Contrasting quadratic assignments for set-based representation learning.</b><br>
+        European Conference on Computer Vision (ECCV), 2022,
+        <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136870087.pdf">
+            link
+        </a>
+    </li>
+    <li class="publication">
+        Piyapat Saranrittichai, Chaithanya Kumar Mummadi, Claudia Blaiotta, Mauricio Munoz, <b>Volker Fischer</b>.<br>
+        <b>Multi-attribute Open Set Recognition.</b><br>
+        Pattern Recognition: 44th DAGM German Conference (GCPR), 2022,
+        <a href="https://dl.acm.org/doi/abs/10.1007/978-3-031-16788-1_7">
+            link
+        </a>
+    </li>
+    <li class="publication">
+        Chaithanya Kumar Mummadi, Ranjitha Subramaniam, Robin Hutmacher, Julien Vitay, <b>Volker Fischer</b>, Jan Hendrik Metzen.<br>
+        <b>Does enhanced shape bias improve neural network robustness to common corruptions?</b><br>
+        International Conference on Learning Representations (ICLR), 2021,
+        <a href="https://openreview.net/pdf?id=yUxUNaj2Sl">
+            link
+        </a>
+    </li>
+    <li class="publication">
+        Jan Bechtold, Maxim Tatarchenko, <b>Volker Fischer</b>, Thomas Brox.<br>
+        <b>Fostering Generalization in Single-view 3D Reconstruction by Learning a Hierarchy of Local and Global Shape Priors.</b><br>
+        Conference on Computer Vision and Pattern Recognition (CVPR), 2021,
+        <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Bechtold_Fostering_Generalization_in_Single-View_3D_Reconstruction_by_Learning_a_Hierarchy_CVPR_2021_paper.pdf">
+            link
+        </a>
+    </li>
+    <li class="publication">
+        Fabian Fuchs, Daniel Worrall, <b>Volker Fischer</b>, Max Welling.<br>
+        <b>SE (3)-transformers: 3D roto-translation equivariant attention networks.</b><br>
+        Advances in Neural Information Processing System (NeurIPS), 2020,
+        <a href="https://proceedings.neurips.cc/paper/2020/file/15231a7ce4ba789d13b722cc5c955834-Paper.pdf">
+            link
+        </a>
+    </li>
+    <li class="publication">
+        Lukas Hoyer, Mauricio Munoz, Prateek Katiyar, Anna Khoreva, <b>Volker Fischer</b>.<br>
+        <b>Grid saliency for context explanations of semantic segmentation.</b><br>
+        Advances in Neural Information Processing System (NeurIPS), 2019,
+        <a href="https://proceedings.neurips.cc/paper/2019/file/6950aa02ae8613af620668146dd11840-Paper.pdf">
+            link
+        </a>
+    </li>
+    <li class="publication">
+        Jan Hendrik Metzen, Mummadi Chaithanya Kumar, Thomas Brox, <b>Volker Fischer</b>.<br>
+        <b>Universal adversarial perturbations against semantic image segmentation.</b><br>
+        International Conference on Computer Vision (ICCV), 2017,
+        <a href="https://openaccess.thecvf.com/content_ICCV_2017/papers/Metzen_Universal_Adversarial_Perturbations_ICCV_2017_paper.pdf">
+            link
+        </a>
+    </li>
+    <li class="publication">
+        Jan Hendrik Metzen, Tim Genewein, <b>Volker Fischer</b>, Bastian Bischoff.<br>
+        <b>On detecting adversarial perturbations.</b><br>
+        International Conference on Learning Representations (ICLR), 2017,
+        <a href="https://openreview.net/pdf?id=SJzCSf9xg">
+            link
+        </a>
+    </li>
+    <li class="publication">
+        Joerg Wagner, <b>Volker Fischer</b>, Michael Herman, Sven Behnke.<br>
+        <b>Multispectral Pedestrian Detection using Deep Fusion Convolutional Neural Networks.</b><br>
+        European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learnin, 2016,
+        <a href="https://www.esann.org/sites/default/files/proceedings/legacy/es2016-118.pdf">
+            link
+        </a>
+    </li>
+    <li class="publication">
+        Michael Herman, <b>Volker Fischer</b>, Tobias Gindele, Wolfram Burgard.<br>
+        <b>Inverse reinforcement learning of behavioral models for online-adapting navigation strategies.</b><br>
+        International Conference on Robotics and Automation (ICRA), 2015,
+        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7139642">
+            link
+        </a>
+    </li>
+    <li class="publication">
+        Markus Raabe, <b>Volker Fischer</b>, Daniela Bernhardt, Mark W Greenlee.<br>
+        <b>Neural correlates of spatial working memory load in a delayed match-to-sample saccade task.</b><br>
+        NeuroImage, 2013,
+        <a href="https://d1wqtxts1xzle7.cloudfront.net/86245573/j.neuroimage.2013.01.00220220521-1-1x01xxt-libre.pdf?1653134955=&response-content-disposition=inline%3B+filename%3DNeural_correlates_of_spatial_working_mem.pdf&Expires=1691005584&Signature=DAgj3l0hymbLbclg16xT7Hobywda9NBTF5Ujf8kPEFerHygcYhSwZjXjyjAYEeoXCZ-tK5ULFWb~3muNj3NSEC6seJtwdvqxQep29VsaMkRyu00WyeQArrwq-ex99ojXGSI2b4ItdZoI7p7U-KQmU5NW0yjTcanzoSKyDu9IB2vtnEun7h8Z30qT7~c4tw8yZZHQYizPPIUYTPCskvIOTPXHB-oe57hXDdWMPpoT6lTbFm18WaWsRAK8ajUIwJFzoNNSyD0WfHKdfyCDXQFPao~LpbGeHUI9ne8kcxRElGxMmuLpVn~wgQe-AQ0g1JG6Sb5cXFGkeIjde7-bNiRsWQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA">
+            link
+        </a>
+    </li>
+</ul>
+<div class="contact">
+    <h2>Contact</h2>
+    <p>Email: volker.fischer(at)example.com</p>
+</div>
+</body>
 </html>
